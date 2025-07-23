@@ -1,0 +1,24 @@
+# Ignore everything by default
+*
+
+# But don't ignore these specific files and directories
+!.gitignore
+!pyproject.toml
+!README.md
+!src/
+!src/**
+
+# Still ignore common artifacts even in allowed directories
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+*.log
+.env
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
